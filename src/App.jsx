@@ -11,7 +11,7 @@ const App = () => {
   ]
 
   const [openIndexes, setOpenIndexes] = useState([])
-  const allowMultiple = false 
+  const allowMultiple = false
 
   const handleToggle = (index) => {
     setOpenIndexes((prev) => {
